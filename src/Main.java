@@ -9,14 +9,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //定义即将访问的链接
-    String url ="http://www.baidu.com";
-            //定义一个字符串用来储存网页内容
-     String result ="" ;
-     //定义一个缓冲字符输入流
-     BufferedReader in =null;
+           //定义即将访问的链接
+        String url ="http://www.baidu.com";
+           //定义一个字符串用来储存网页内容
+        String result ="这就是截取的内容:" ;
+           //定义一个缓冲字符输入流
+        BufferedReader in =null;
      try {
-        //将string转成url对象
+         //将string转成url对象
          URL realUrl= new URL(url);
          //初始化一个链接到那个url的连接
          URLConnection connection = realUrl.openConnection();
@@ -25,24 +25,20 @@ public class Main {
          //初始化BufferReader输入流来读取URL的响应
          in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
          //用来临时存取抓取到的每一行数据
-
          String line;
-
          while ((line =in.readLine())!=null){
-
-
              //i遍历抓取到的每一个行并将其存储到result里面
-
              result += line +"/n";
          }
-
-     } catch (MalformedURLException e) {
-
+     } catch (MalformedURLException e)
+     {
          System.out.println("发送get强求出现异常！"+e);
          e.printStackTrace();
-     } catch (IOException e) {
+     } catch (IOException e)
+     {
          e.printStackTrace();
-     } finally
+     }
+     finally
      {
          try
          {
