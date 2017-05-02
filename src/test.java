@@ -17,7 +17,7 @@ public class test {
 
     public static void main(String[]args){
 
-        String url="https://www.github.com";
+        String url="https://github.com/uestcrush";
         String result="这就是截取内容：";
         BufferedReader in= null;
         try{
