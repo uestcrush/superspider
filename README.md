@@ -11,6 +11,6 @@ try grub everything easyly
 //v1.3 爬取商城的功能</br>
 
 现在发现了一个问题 如果不把依赖的jar包放到src而是放到External Libraries里的话 github同步的时候是不会把那些jar包同步下来的 
-现在就开始修正这个问题
-
+现在就开始修正这个问题</br>
+//每日一推
 
