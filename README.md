@@ -12,6 +12,11 @@ try grub everything easyly
 
 现在发现了一个问题 如果不把依赖的jar包放到src而是放到External Libraries里的话 github同步的时候是不会把那些jar包同步下来的 
 现在就开始修正这个问题</br>
-五天之后的签到2017.5.11很久没来
+//v1.4 修正导入jar包依赖的问题</br>
+修正时出现了新的问题 如果把jar包放在项目根目录下 会出现包依赖问题
+
+
+
+
 
 
