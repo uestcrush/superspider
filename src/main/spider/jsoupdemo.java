@@ -1,6 +1,7 @@
-package main.java; /**
+package main ;/**
  * Created by Administrator on 2017/5/2.
  */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -18,7 +19,7 @@ import org.apache.commons.lang3.StringEscapeUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 //成功导入所有依赖的包
-public class jsoup {
+public class jsoupdemo {
 
     public static void main(String[] args) throws Exception {
         String downloadPath = ".\\home\\zhoudan\\爬虫图片\\外国明星图";

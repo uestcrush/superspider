@@ -1,4 +1,4 @@
-package main.java; /**
+package main.spider;/**
  * Created by Administrator on 2017/5/1.
  */
 
@@ -11,7 +11,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
-public class test {
+public class testdemo {
 
 
 
