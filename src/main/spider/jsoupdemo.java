@@ -22,8 +22,8 @@ import org.jsoup.nodes.Document;
 public class jsoupdemo {
 
     public static void main(String[] args) throws Exception {
-        String downloadPath = ".\\home\\zhoudan\\爬虫图片\\外国明星图";
-        List<String> list = nameList("胡歌，袁弘");
+        String downloadPath = "F:\\爬虫图片\\外国明星图";
+        List<String> list = nameList("刘诗诗");
         getPictures(list,1,downloadPath); //1代表下载一页，一页一般有30张图片
     }
 

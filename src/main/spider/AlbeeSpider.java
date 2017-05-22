@@ -56,7 +56,7 @@ public class AlbeeSpider implements PageProcessor {
             for (int i=0;i<urlList.size();i=i+2){
                 url.add(urlList.get(i));
             }
-            String filePath = "D:\\知乎图片\\";
+            String filePath = "E:\\知乎图片\\";
             try {
                 downLoadPics(url,questionTitle,filePath);
             } catch (Exception e) {
